@@ -6,7 +6,7 @@
         </div>
         <div class="ttr_slogan_position">
             <h1 class="ttr_slogan_style">
-                Call Us +1-587-487-572215874876186    |    info@remediumpharmacy.com
+                Call Us +15878829858    |    info@remediumpharmacy.com
             </h1>
         </div>
     </div>
