@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf8223be-0ff7-4fa7-8a26-843ad7ddffdc" name="Default Changelist" comment="" />
+    <list default="true" id="cf8223be-0ff7-4fa7-8a26-843ad7ddffdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/986101292/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/986101292/our-philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/our-philosophy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/986101292/our-research.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/our-research.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/our-senior-team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/our-senior-team.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -153,7 +159,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571021071319</updated>
-      <workItem from="1571021072639" duration="18607000" />
+      <workItem from="1571021072639" duration="20732000" />
+      <workItem from="1571130438425" duration="663000" />
     </task>
     <servers />
   </component>
@@ -165,7 +172,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
