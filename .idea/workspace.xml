@@ -2,11 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8223be-0ff7-4fa7-8a26-843ad7ddffdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/pr-20181012.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pr-201898.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pr-2019107.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remediumbio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remediumbio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/986101292/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/986101292/our-philosophy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/our-philosophy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/986101292/our-research.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/986101292/our-research.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/our-senior-team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/our-senior-team.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/pagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/pagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/FrontEnd/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/FrontEnd/contactform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/FrontEnd/contactform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/FrontEnd/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/FrontEnd/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181122.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181122.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181123.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181123.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181126-2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181126-2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181126.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181126.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181128.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181128.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181201.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181201.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181203.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181203.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pr-20181214.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pr-20181214.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/press-releases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/press-releases.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RequirePassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RequirePassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/ArrayStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/ArrayStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphPivot.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphPivot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/SqlServerBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/SqlServerBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/Events/BroadcastNotificationCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/Events/BroadcastNotificationCreated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteUrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonImmutable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonImmutable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sh.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Traits/Date.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SAzDtAIrsk6VLmvgWjJ3COQ05F" />
@@ -160,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571021071319</updated>
       <workItem from="1571021072639" duration="20732000" />
-      <workItem from="1571130438425" duration="663000" />
+      <workItem from="1571130438425" duration="16673000" />
     </task>
     <servers />
   </component>

@@ -41,4 +41,7 @@ Route::get('/pr-20181126-2', 'pagesController@pr201811262');
 Route::get('/pr-20181126', 'pagesController@pr20181126');
 Route::get('/pr-20181123', 'pagesController@pr20181123');
 Route::get('/pr-20181122', 'pagesController@pr20181122');
+Route::get('/pr-201898', 'pagesController@pr201898');
+Route::get('/pr-2019107', 'pagesController@pr2019107');
+Route::get('/pr-20181012', 'pagesController@pr20181012');
 

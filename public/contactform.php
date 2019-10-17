@@ -1,6 +1,7 @@
-<?php 
+<?php
 
-require "vendor/autoload.php";
+//require "vendor/autoload.php";
+require __DIR__.'/../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -8,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 $developmentMode = true;
 $mailer = new PHPMailer($developmentMode);
 try{
-	
+
 	$mailer->SMTPDebug = 2;
 	$mailer->isSMTP();
 	if($developmentMode){
@@ -20,16 +21,16 @@ try{
 			]
 		];
 	}
-	
+
 	$mailer->Host = 'smtp.gmail.com';
 	$mailer->SMTPAuth = true;
 	$mailer->Username = 'mailer.service.remedium@gmail.com';
 	$mailer->Password = '1qaz2wsx3edcGo';
 	$mailer->SMTPSecure = 'tls';
 	$mailer->Port = 587;
-	
-	
-	
+
+
+
 	if(isset($_POST['email'])) {
 		$from = $_POST['email'];
 	}
@@ -40,7 +41,7 @@ try{
 	else {
 		$subject = 'Message from Contact Remedium Pharmacy ';
 	}
-	
+
 	// contact form other fields
 	foreach($_POST as $k => $val)
 	{
@@ -75,22 +76,22 @@ try{
 	$mailer->isHTML(true);
 	$mailer->Subject = $subject;
 	$mailer->Body = $body;
-	
-	if($mailer->send()) 
-	{	
+
+	if($mailer->send())
+	{
 		echo 'sent';
 	} else {
 		echo 'fail';
 	}
-	
+
 	$mailer->ClearAllRecipients();
-	
-	
-	
+
+
+
 }catch(Exception $e){
-	
+
 	echo "EMAIL SENDING FAILED. INFO: " . $mailer->ErrorInfo;
-	
+
 }
 
 

@@ -111,20 +111,20 @@ jQuery(document).ready(function () {
         else{
         	var allowedExts = false;
         }
-        
+
         if(attachedFile.hasAttribute("size")){
 	    	var allwdsize = attachedFile.getAttribute("size");
 	    }else{
         	var allwdsize = false;
         }
-        
+
         var selected = attachedFile.files.length;
         if( selected > 0)
         {
 			var attach_file= uploadfile(form_id,allwdsize,allowedExts);
 		}
 		}
-		
+
         if (attach_file && validate(form_id)) {
             var messsage_body = "From \n" + msg_to_sent + " \n Message : " + msg;
          	jQuery.ajax({
@@ -143,7 +143,11 @@ jQuery(document).ready(function () {
                         jQuery(form_id).trigger("reset");
                         msg_to_sent = "";
                     } else {
-                        jQuery(form_id + ' .success').html('<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>');
+                        jQuery(form_id + ' .success').html(
+                            '<div class="alert alert-danger">' +
+                            'Sorry there was an error sending your message. Please try again later.</div>'
+                            // 'Sorry there was an error sending your message. Please try again later.</div>' + msg
+                        );
                         msg_to_sent = "";
                     }
                 }
@@ -167,13 +171,13 @@ function uploadfile(form_id,allwdsize,allowedExts)
 		var resultArray = allowedExts.split(',').map(function(allowedExts){return String(allowedExts);});
 		}
 
-	   
+
 	   if(allwdsize && filesize > allwdsize)
 	   {
 	   var sizeerr = errflag = true;
-	   errmsg += "Please upload valid file (filesize must be less than " + allwdsize + "Mb";	   
+	   errmsg += "Please upload valid file (filesize must be less than " + allwdsize + "Mb";
 	   }
-	   
+
 	   var res = $.inArray(type,resultArray);
 	   if((resultArray) && (res == -1))
 	   {
@@ -189,8 +193,8 @@ function uploadfile(form_id,allwdsize,allowedExts)
 	   }else{
 	   		errmsg += ")";
 	   		}
-	   
-	   
+
+
 	   if(errflag)
 	   {
 	   	alert(errmsg);

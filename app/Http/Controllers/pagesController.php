@@ -156,4 +156,22 @@ class pagesController extends Controller
         $title='pr-20181122';
         return view('pr-20181122', compact(['bodyClass','title']));
     }
+    public function pr201898()
+    {
+        $bodyClass = 'pr-20181122';
+        $title='pr-201898';
+        return view('pr-201898', compact(['bodyClass','title']));
+    }
+    public function pr2019107()
+    {
+        $bodyClass = 'pr-20181122';
+        $title='pr-2019107';
+        return view('pr-2019107', compact(['bodyClass','title']));
+    }
+    public function pr20181012()
+    {
+        $bodyClass = 'pr-20181122';
+        $title='pr-20181012';
+        return view('pr-20181012', compact(['bodyClass','title']));
+    }
 }
