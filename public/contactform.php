@@ -7,10 +7,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 $developmentMode = true;
+//For local development
+//    keep the $developmentMode variable set to true
+//For live server
+//    change the $developmentMode variable to false
 $mailer = new PHPMailer($developmentMode);
 try{
 
-	$mailer->SMTPDebug = 2;
+	$mailer->SMTPDebug = 1;// 1 to enables SMTP debug (for testing), 0 to disable debug (for production)
 	$mailer->isSMTP();
 	if($developmentMode){
 		$mailer->SMTPOptions = [
@@ -43,6 +47,7 @@ try{
 	}
 
 	// contact form other fields
+    $body='';
 	foreach($_POST as $k => $val)
 	{
 		$body .=  ucfirst($k) . ": " . $val . "<br>";
