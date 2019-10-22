@@ -46317,7 +46317,7 @@ and (max-width : 1024px)
 {
 #navigationmenu > div.ttr_menu_logo
 {
-
+    /*width: 50px;*/
 }
 
  #navigationmenu > div.menu-center.collapse.navbar-collapse > ul > li:nth-child(5),

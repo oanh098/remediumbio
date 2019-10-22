@@ -62,7 +62,7 @@ $('body').toggleClass('nav-expanded');
 $('ul.ttr_menu_items.nav li [data-toggle=dropdown]').on('click', function() {
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
 if(window_width > 1025 && $(this).attr('href')){
-window.location.href = $(this).attr('href'); 
+window.location.href = $(this).attr('href');
 }
 else{
 if($(this).parent().hasClass('open')){
@@ -75,7 +75,7 @@ location.assign($(this).attr('href'));
 $('ul.ttr_vmenu_items.nav li [data-toggle=dropdown]').on('click', function() {
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
 if(window_width > 1025 && $(this).attr('href')){
-window.location.href = $(this).attr('href'); 
+window.location.href = $(this).attr('href');
 }
 else{
 if($(this).parent().hasClass('open')){
@@ -85,7 +85,7 @@ location.assign($(this).attr('href'));
 });
 
 /*************** Tab menu click script ***************/
-$('.ttr_menu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) { 
+$('.ttr_menu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 if(window_width < 1025){
 event.preventDefault();
@@ -93,7 +93,7 @@ event.stopPropagation();
 $(this).parent().siblings().removeClass('open');
 $(this).parent().toggleClass(function() {
 if ($(this).is(".open") ) {
-window.location.href = $(this).children("[data-toggle=dropdown]").attr('href'); 
+window.location.href = $(this).children("[data-toggle=dropdown]").attr('href');
 return "";
 } else {
 return "open";
@@ -103,7 +103,7 @@ return "open";
 });
 
 /*************** Tab-Sidebarmenu script ***************/
-$('.ttr_vmenu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) { 
+$('.ttr_vmenu_items ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 if(window_width < 1025){
 event.preventDefault();
@@ -111,7 +111,7 @@ event.stopPropagation();
 $(this).parent().siblings().removeClass('open');
 $(this).parent().toggleClass(function() {
 if ($(this).is(".open") ) {
-window.location.href = $(this).children("[data-toggle=dropdown]").attr('href'); 
+window.location.href = $(this).children("[data-toggle=dropdown]").attr('href');
 return "";
 } else {
 return "open";
@@ -139,12 +139,12 @@ $(objects[i]).addClass('embed-responsive-item');
 }
 }
 });
-/* The JS code written in this window will append within the customjs.js file. */ 
+/* The JS code written in this window will append within the customjs.js file. */
 
 /** set att href Go Back and Print Page **/
 $(window).load(function(){
- 
- 
+
+
 
 });
 /** end set att href Go Back and Print Page **/
@@ -177,8 +177,8 @@ and (max-width : 1024px)  */
 
 var window_width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
      if(window_width > 768 && window_width < 1280){// tablet  600 - 2736
- 
- alert ('tablet width: ' + window_width); 
+
+ // alert ('tablet width: ' + window_width);
  options = {
      ovalWidth: 200,
      ovalHeight: 50,
@@ -189,10 +189,10 @@ var window_width =  Math.max(document.documentElement.clientWidth, window.innerW
      duration: 350,
      className: 'ttr_image'
   }
- 
+
 } else {
  if (window_width > 395 && window_width < 767 ) { // mobile  320px - 2960px
-  
+
   alert ('mobile width: ' + window_width);
   options = {
      ovalWidth: 150,
@@ -206,18 +206,18 @@ var window_width =  Math.max(document.documentElement.clientWidth, window.innerW
   }
  }
 }
-  
+
 
   var carousel = $('.footercellcolumn1 .html_content').CircularCarousel(options);
 
-   
-  /* Previous button 
+
+  /* Previous button
   $('.controls .previous').click(function(e) {
    carousel.cycleActive('previous');
    e.preventDefault();
   });
 
-  /* Next button 
+  /* Next button
   $('.controls .next').click(function(e) {
    carousel.cycleActive('next');
    e.preventDefault();
@@ -232,8 +232,8 @@ var window_width =  Math.max(document.documentElement.clientWidth, window.innerW
 setInterval(function(){ carousel.cycleActive('next'); }, 3000);
 //alert('The element exists in the page.');
  });
- 
- 
+
+
 
 
 
@@ -260,7 +260,7 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
     /*
        Original Source of this function: Addy Osmani's jquery.shapelib from 2010. Updated, tweaked by @samuelgbrown.
        Positions the items using margins, relative to an ellipse.
-    
+
        @params
        x: the left offset of all points on the ellipse
        y: the top offset of all points on the ellipse
@@ -272,7 +272,7 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
 
       var i = 0,
           n = 0,
-          beta = -angle * (Math.PI / 180),    
+          beta = -angle * (Math.PI / 180),
           sinbeta = Math.sin(beta),
           cosbeta = Math.cos(beta),
           offsetElement = activeItem,
@@ -443,7 +443,7 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
 
     /*
       Calculates the shorted route through the items array (forwards OR backwards)
-      
+
       @params
       array: array of carousel items
         start: route start position
@@ -463,13 +463,13 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
         right++;
         index = (index === array.length-1) ? 0 : index + 1;
       }
-     
+
       index = start;
       while(index !== end){
         left++;
         index = (index === 0) ? array.length-1 : index - 1;
       }
-     
+
       return (left > right) ? { 'direction' : 1, 'steps' : right } : { 'direction' : 0, 'steps' : left };
     };
 
@@ -487,7 +487,7 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
       var inSeconds = options.duration / 1000 + 's';
       $items.css('transition-duration', inSeconds);
     }, 10);
-    
+
 
     var methods = {
 
@@ -547,7 +547,7 @@ setInterval(function(){ carousel.cycleActive('next'); }, 3000);
 
           // Add new active class, reposition items with positionItems.
           positionItems(offsetX, offsetY, angle, null);
-          
+
         }
 
       },

@@ -3659,6 +3659,7 @@ vertical-align: middle; }
 @media only screen
 and (max-width : 767px)
 {
+
 @font-face
 {
  font-family:'Geneva';
@@ -4552,6 +4553,8 @@ vertical-align: middle; }
 and (min-width : 768px)
 and (max-width : 1024px)
 {
+
+
 @font-face
 {
  font-family:'Geneva';
@@ -46283,7 +46286,7 @@ and (max-width : 767px)
 {
  #navigationmenu > div.ttr_menu_logo
 {
-
+    width: 50px;
 }
 
 #navigationmenu > div.menu-center.collapse.navbar-collapse > ul > li:nth-child(5),
