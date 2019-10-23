@@ -145,8 +145,8 @@ jQuery(document).ready(function () {
                     } else {
                         jQuery(form_id + ' .success').html(
                             '<div class="alert alert-danger">' +
-                            'Sorry there was an error sending your message. Please try again later.</div>'
-                            // 'Sorry there was an error sending your message. Please try again later.</div>' + msg
+                           'Sorry there was an error sending your message. Please try again later.</div>'
+                           //   'Sorry there was an error sending your message. Please try again later.</div>' + msg
                         );
                         msg_to_sent = "";
                     }

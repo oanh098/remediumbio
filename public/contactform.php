@@ -14,7 +14,8 @@ $developmentMode = true;
 $mailer = new PHPMailer($developmentMode);
 try{
 
-	$mailer->SMTPDebug = 1;// 1 to enables SMTP debug (for testing), 0 to disable debug (for production)
+	$mailer->SMTPDebug = 1;// 1 to enables SMTP debug (for testing) on local,
+    // 0 to disable debug (for production) on server
 	$mailer->isSMTP();
 	if($developmentMode){
 		$mailer->SMTPOptions = [
@@ -78,6 +79,7 @@ try{
 	$mailer->setFrom($from, 'The ROBOT MAILER');
 	$mailer->addAddress('thuyoanh21790@gmail.com', 'Admin');
 	$mailer->addAddress('Harvey.millington@remediumpharmacy.com');
+	$mailer->addAddress('rembiotech@protonmail.com');
 	$mailer->isHTML(true);
 	$mailer->Subject = $subject;
 	$mailer->Body = $body;

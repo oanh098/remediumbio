@@ -44443,9 +44443,10 @@ transform:rotate(0deg);
 -webkit-transform:rotate(0deg);
 -o-transform:rotate(0deg);
 -ms-transform:rotate(0deg);
-top:0;position:absolute;
+top:3%;
+     position:fixed;
 z-index:500;
-left:0%;
+left:43%;
 right:auto;
 display:block;
 transform:rotate(0deg);
@@ -44467,6 +44468,7 @@ width:768px;
  #ttr_menu .ttr_menu_logo
 {
 height:auto;
+ width: 25%;
 }
  .ttr_menu_logo img
 {
