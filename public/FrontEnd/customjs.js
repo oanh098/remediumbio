@@ -193,7 +193,7 @@ var window_width =  Math.max(document.documentElement.clientWidth, window.innerW
 } else {
  if (window_width > 395 && window_width < 767 ) { // mobile  320px - 2960px
 
-  alert ('mobile width: ' + window_width);
+  // alert ('mobile width: ' + window_width);
   options = {
      ovalWidth: 150,
      ovalHeight: 50,
